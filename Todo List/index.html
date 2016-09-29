@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo App</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="js/todo.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+  <div id="todo-container">
+    <h2>My Todo List</h2>
+    <input type="text" id="todo-input" />
+    <button id="todo-add">Add todo</button>
+    <div id="todos">
+    <!--Todo Items will be inserted here-->
+    </div>
+    <div id="todo-options">
+       <div><span id="todo-total">0</span> Todos</div>
+       <div><span id="todo-completed">0</span> Completed Todos</div>
+       <button id="todo-checkall">Check all todos</button>
+       <button id="todo-deleteall">Delete all todos</button>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+  body{
+    font-family: 'Open Sans', helvetica, arial;
+    color: #888;
+  }
+  #todo-container{
+    width: 50%;
+    min-width: 500px;
+    margin:40px auto;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    padding:10px;
+  }

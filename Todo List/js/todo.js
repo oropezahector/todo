@@ -1,13 +1,4 @@
-var todos = [
-  {
-		text: 'Buy Cigarettes',
-    isCompleted : false
-  },
-  {
-		text: 'Buy Chocolate Milk',
-    isCompleted : true
-  }
-];
+var todos = [];
 
 //Create
 function addTodo(newTodoText){
@@ -71,6 +62,7 @@ $(document).ready(function(){
   $('#todo-add').on('click', function(){
   	var newTodoText = $('#todo-input').val();
     addTodo( newTodoText );
+    $('#todo-input').val('');
     render();
   });
   
